@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Formulario</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <form id="form">
-        <h2>Formulario de Registro con Firebase</h2>
-        <div class="form-group">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name">
-            <div class="error-message" id="nameError"></div>
-        </div>
-        <div class="form-group">
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email">
-            <div class="error-message" id="emailError"></div>
-        </div>
-        <div class="form-group">
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password">
-            <div class="error-message" id="passwordError"></div>
-        </div>
-        <button type="submit">Enviar</button>
+      <h2>Formulario de Registro con Firebase</h2>
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" />
+        <div class="error-message" id="nameError"></div>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" />
+        <div class="error-message" id="emailError"></div>
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" />
+        <div class="error-message" id="passwordError"></div>
+      </div>
+      <button type="submit">Registrarse</button>
     </form>
 
     <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore-compat.js"></script>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
